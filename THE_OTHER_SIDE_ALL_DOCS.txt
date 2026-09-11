@@ -1,0 +1,3153 @@
+============================================================
+FILE: ./design/ARCHITECTURAL_PROGRAM.md
+============================================================
+# THE OTHER SIDE — ARCHITECTURAL PROGRAM
+
+**Status:** Design Lock companion specification
+**Coordinates:** See `COORDINATE_REGISTRY.md`
+
+## 1. Space Design Rule
+
+Every major space must have a believable function before it receives gameplay significance.
+
+Every major space must answer at least one:
+
+- What function does it serve?
+- What system does it connect?
+- What does it reveal about Rosslyn?
+- What behavior might the Mirror learn there?
+- What information can be discovered there?
+- How does its system state change across Acts?
+
+## 2. R-101 — Primary Security Airlock
+
+**Role:** controlled facility entry.
+
+Contains:
+- security vestibule;
+- access-control hardware;
+- visitor processing infrastructure;
+- physical security barriers;
+- camera/sensor coverage;
+- controlled connection to exterior.
+
+Narrative role:
+- establishes normal operation;
+- makes Rosslyn feel professionally managed;
+- becomes the first meaningful boundary after lockdown.
+
+## 3. R-102 — Intake Reception
+
+**Role:** public-facing intake and administrative reception.
+
+Contains:
+- reception desk;
+- visitor records;
+- communication equipment;
+- waiting area;
+- directional signage;
+- routine administrative material.
+
+Narrative role:
+- establishes mundane institutional life;
+- provides early contradictions after lockdown.
+
+## 4. HUB-00 — Central Circulation Hub
+
+**Role:** primary Ground Floor circulation node.
+
+Contains:
+- major directional signage;
+- access-control junctions;
+- visible circulation routes;
+- vertical-circulation relationship;
+- institutional architectural identity.
+
+Gameplay role:
+- baseline spatial reference;
+- revisited navigation landmark;
+- increasingly important as security states change.
+
+## 5. R-103 — Admin Records Office
+
+**Role:** records and administrative support.
+
+Contains:
+- filing/storage systems;
+- records workstations;
+- communications;
+- controlled document storage.
+
+Narrative role:
+- official version of Rosslyn's history;
+- potential contradiction with physical evidence.
+
+## 6. HUB-B1 — Lower Circulation Hub
+
+**Role:** B-1 circulation and system-distribution node.
+
+Connects:
+- west behavioral route;
+- east control/data route;
+- main vertical circulation.
+
+Gameplay role:
+- major route-selection space;
+- increasingly controlled by Mirror interventions.
+
+## 7. R-201 — Observation Chamber 01
+
+**Role:** controlled behavioral observation.
+
+Contains:
+- observation interface;
+- controlled viewing relationship;
+- recording infrastructure;
+- subject-facing architectural elements.
+
+Narrative role:
+- reveals that Rosslyn's behavioral research was real;
+- introduces the distinction between observation and interpretation.
+
+## 8. C-202 — Observation Ante-Room
+
+**Role:** controlled transition into observation.
+
+Contains:
+- access-control threshold;
+- staging space;
+- monitoring relationship;
+- procedural signage.
+
+Gameplay role:
+- transition between public circulation and behavioral research.
+
+## 9. C-203 — Air-Gapped Crawlspace
+
+**Role:** legacy maintenance route.
+
+Contains:
+- physically isolated service infrastructure;
+- old conduits;
+- limited lighting;
+- maintenance access;
+- no direct dependence on the primary observation network.
+
+Gameplay role:
+- legitimate information blind spot;
+- technician evidence route;
+- important final information asymmetry.
+
+## 10. R-202 — Behavioral Control Room
+
+**Role:** behavioral research control.
+
+Contains:
+- monitoring/control stations;
+- system interfaces;
+- observation routing;
+- procedural documentation.
+
+Gameplay role:
+- helps Shamshir understand how Rosslyn can observe and react.
+
+## 11. R-301 — Diagnostic Terminal Hub
+
+**Role:** security/system diagnostics.
+
+Contains:
+- diagnostic terminals;
+- local system status;
+- access-control relationships;
+- service documentation.
+
+Gameplay role:
+- lets the player understand infrastructure causally.
+
+## 12. R-302 — Main Server Vault
+
+**Role:** protected data infrastructure.
+
+Contains:
+- server equipment;
+- controlled access;
+- environmental support;
+- restricted diagnostics.
+
+Gameplay role:
+- high-information, high-control location;
+- reinforces that digital infrastructure is powerful but not omniscient.
+
+## 13. R-401 — Central Substation
+
+**Role:** primary B-2 electrical infrastructure.
+
+Contains:
+- power distribution;
+- breaker infrastructure;
+- service access;
+- maintenance documentation.
+
+Gameplay role:
+- infrastructure dependency hub;
+- technician evidence area;
+- establishes analog/digital coexistence.
+
+## 14. C-403 — B-2 Infrastructure Connector
+
+**Role:** service transition between central substation and legacy relay infrastructure.
+
+Gameplay role:
+- compact transitional space;
+- reinforces the service-network topology.
+
+## 15. R-402 — Old Relay Room
+
+**Role:** legacy control/relay infrastructure.
+
+Contains:
+- electromechanical relays;
+- older control hardware;
+- maintenance labels;
+- obsolete but still physically meaningful systems.
+
+Gameplay role:
+- demonstrates that older systems can remain strategically relevant.
+
+## 16. R-403 — Pre-Digital Escape Vault
+
+**Role:** legacy infrastructure and concealed maintenance access.
+
+Contains:
+- old mechanical systems;
+- manual bypass hardware;
+- technician evidence;
+- connection to boundary route.
+
+Gameplay role:
+- final information advantage;
+- location of the pre-existing physical vulnerability;
+- legacy infrastructure whose strategic significance the Mirror's model does not fully represent.
+
+## 17. C-499 — Boundary Tunnel
+
+**Role:** concealed pre-digital route to the building boundary.
+
+Gameplay role:
+- unmonitored escape segment;
+- final transition from Rosslyn interior to exterior.
+
+## 18. HUB-U1 — Upper Atrium Walkway
+
+**Role:** upper-level circulation and visual relationship to Ground Floor.
+
+Contains:
+- guardrails;
+- institutional circulation;
+- visual connection to central void.
+
+Gameplay role:
+- vertical orientation;
+- surveillance sightline experiments.
+
+## 19. R-501 — Facility Director's Office
+
+**Role:** executive oversight.
+
+Contains:
+- administrative records;
+- controlled communications;
+- observation/research oversight material.
+
+Gameplay role:
+- evidence concerning official institutional priorities.
+
+## 20. R-502 — Observation Gallery
+
+**Role:** executive/research viewing.
+
+Contains:
+- observation interfaces;
+- controlled viewing;
+- architectural overlook.
+
+Gameplay role:
+- lets the player understand how observation can shape behavior.
+
+## 21. C-501 — East Executive Corridor
+
+**Role:** controlled transition toward Secure Research Lab Alpha.
+
+Gameplay role:
+- executive/research threshold;
+- security-state showcase.
+
+## 22. R-503 — Secure Research Lab Alpha
+
+**Role:** restricted research.
+
+Contains:
+- research infrastructure;
+- controlled access;
+- procedural work areas;
+- evidence of deeper compartmentalized work.
+
+Gameplay role:
+- expands the question from ordinary behavioral research to the deeper Rosslyn mystery.
+
+## 23. Vertical Cores
+
+### VC-01
+
+Main stair. Public/operational vertical route through the facility.
+
+### VC-02
+
+Service elevator. Connects +1, Ground and B-1. It does not serve B-2.
+
+### VC-03
+
+Air-gapped maintenance ladder shaft. Connects B-2, B-1 and isolated infrastructure.
+
+## 24. Exterior
+
+The exterior is not a second game world.
+
+It establishes:
+- isolation;
+- controlled perimeter;
+- forest environment;
+- physical final boundary.
+
+Most gameplay remains inside Rosslyn.
+
+============================================================
+FILE: ./design/ART_DIRECTION.md
+============================================================
+# THE OTHER SIDE — ART DIRECTION
+
+## 1. Visual Goal
+
+Rosslyn should look like a believable research facility first and a horror location second.
+
+The horror comes from context, system behavior and changing conditions.
+
+## 2. Architecture
+
+Use grounded mid-century-to-late-industrial institutional architecture.
+
+Avoid:
+- glossy futuristic laboratories;
+- excessive holograms;
+- impossible structures;
+- decorative sci-fi geometry.
+
+## 3. Materials
+
+Primary material families:
+- painted concrete;
+- institutional plaster;
+- metal;
+- glass;
+- industrial flooring;
+- service conduits;
+- aging mechanical hardware;
+- paper and analogue documentation.
+
+## 4. Digital / Analog Contrast
+
+Modern digital systems coexist with older infrastructure.
+
+Digital equipment should feel maintained and functional.
+
+Analog systems should feel old but physically understandable.
+
+## 5. Lighting
+
+Lighting is practical and architectural.
+
+Sources include:
+- institutional fixtures;
+- emergency lighting;
+- equipment indicators;
+- service lighting;
+- handheld inspection light.
+
+## 6. Props
+
+Props should communicate function.
+
+Do not fill rooms with arbitrary clutter.
+
+Every significant prop should either:
+- establish occupation;
+- explain a system;
+- support investigation;
+- reinforce history;
+- communicate a state change.
+
+## 7. Mirror Visual Language
+
+Early:
+- reflection;
+- indirect artifacts;
+- unexplained environmental response.
+
+Middle:
+- ambiguous silhouettes/presence;
+- altered relationships between objects and observation.
+
+Late:
+- physical obstruction/presence;
+- still not a conventional monster.
+
+## 8. Environmental Decay
+
+Decay should be systemic and restrained.
+
+Use:
+- abandoned work;
+- interrupted procedures;
+- emergency signage;
+- displaced equipment;
+- maintenance traces.
+
+Avoid gore as a primary storytelling method.
+
+## 9. Exterior
+
+Pacific Northwest coastal forest.
+
+Overcast weather transitions toward rain and coastal fog.
+
+The perimeter is functional and security-focused.
+
+============================================================
+FILE: ./design/ASSET_PIPELINE.md
+============================================================
+# THE OTHER SIDE — ASSET PIPELINE
+
+**Status:** Pre-production specification
+**Implementation:** Not started
+
+## 1. Pipeline
+
+The intended production pipeline is:
+
+**Canonical Mapping → Coordinate Data → Blender Generation → GLB → Godot**
+
+The pipeline must consume the frozen design rather than redefine it.
+
+## 2. Source of Truth
+
+Production geometry must originate from:
+- coordinate registry;
+- architectural program;
+- design lock;
+- system state matrix.
+
+## 3. Blender
+
+Blender is a production tool, not a design authority.
+
+Scripts must generate canonical geometry from approved data.
+
+No script may silently invent rooms, move portals, or alter the coordinate system.
+
+## 4. Export
+
+The Blender-to-GLB transformation must be documented exactly once.
+
+No ad-hoc global rotation may be used to repair an export.
+
+## 5. Godot
+
+Godot consumes the approved GLB and approved gameplay/system specifications.
+
+Runtime scripts must not compensate for modelling mistakes with transforms.
+
+## 6. Collision
+
+Collision must correspond to actual mapped physical boundaries.
+
+No collision-only architecture.
+
+No visual wall without intended physical interpretation.
+
+## 7. Validation
+
+Before an environment is accepted:
+1. source coordinates are checked;
+2. exported geometry is checked;
+3. imported Godot geometry is checked;
+4. collision is checked;
+5. player traversal is checked;
+6. portal topology is checked.
+
+## 8. Production Gate
+
+No modelling begins until Design Lock is accepted.
+
+============================================================
+FILE: ./design/COORDINATE_REGISTRY.md
+============================================================
+# THE OTHER SIDE — COORDINATE REGISTRY
+
+**Status:** FROZEN
+**Revision:** Mapping/Coordinate Truth Final
+**Purpose:** Authoritative spatial truth for Rosslyn
+
+> This file contains actual coordinates. Do not infer replacement coordinates from older design documents.
+
+## 1. World Envelope
+
+`X [-40,40]`
+`Y [-30,30]`
+Origin `(0,0,0)`
+
+## 2. Core Rooms
+
+### Ground — Level 0
+
+| ID | Space | Sector | Bounds |
+|---|---|---|---|
+| R-101 | Primary Security Airlock | A | X[-6,6], Y[-30,-24], Z[0,3.2] |
+| R-102 | Intake Reception | A | X[-12,12], Y[-24,-12], Z[0,3.2] |
+| HUB-00 | Central Circulation Hub | A | X[-12,12], Y[-12,12], Z[0,3.2] |
+| R-103 | Admin Records Office | A | X[12,27], Y[-12,12], Z[0,3.2] |
+
+### Basement 1 — Level -1
+
+| ID | Space | Sector | Bounds |
+|---|---|---|---|
+| HUB-B1 | Lower Circulation Hub | B/C | X[-12,12], Y[-12,12], Z[-4,-0.8] |
+| R-201 | Observation Chamber 01 | B | X[-27,-12], Y[12,27], Z[-4,-0.8] |
+| R-202 | Behavioral Control Room | B | X[-12,12], Y[12,27], Z[-4,-0.8] |
+| R-301 | Diagnostic Terminal Hub | C | X[12,27], Y[-12,12], Z[-4,-0.8] |
+| R-302 | Main Server Vault | C | X[12,27], Y[12,27], Z[-4,-0.8] |
+| C-202 | Observation Ante-Room | B | X[-27,-12], Y[6,12], Z[-4,-0.8] |
+| C-203 | Air-Gapped Crawlspace | B/D interface | X[-36,-27], Y[18,21], Z[-4,-0.8] |
+
+### Basement 2 — Level -2
+
+| ID | Space | Sector | Bounds |
+|---|---|---|---|
+| R-401 | Central Substation | D | X[-15,15], Y[-18,0], Z[-8,-4.8] |
+| R-402 | Old Relay Room | D | X[-30,-15], Y[0,15], Z[-8,-4.8] |
+| R-403 | Pre-Digital Escape Vault | D | X[-36,-24], Y[15,27], Z[-8,-4.8] |
+| C-403 | B2 Infrastructure Connector | D | X[-30,-15], Y[-3,0], Z[-8,-4.8] |
+| C-499 | Boundary Tunnel | D | X[-40,-36], Y[24,27], Z[-8,-4.8] |
+
+### Upper Level +1
+
+| ID | Space | Sector | Bounds |
+|---|---|---|---|
+| HUB-U1 | Upper Atrium Walkway | A | X[-12,12], Y[-12,12], Z[4,7.2] |
+| R-501 | Facility Director's Office | A | X[-27,-12], Y[-3,12], Z[4,7.2] |
+| R-502 | Observation Gallery | A/B | X[-27,-12], Y[-24,-3], Z[4,7.2] |
+| R-503 | Secure Research Lab Alpha | B | X[15,30], Y[0,21], Z[4,7.2] |
+| C-501 | East Executive Corridor | A/B | X[12,15], Y[3,21], Z[4,7.2] |
+
+## 3. Vertical Cores
+
+| ID | Function | Bounds |
+|---|---|---|
+| VC-01 | Main Stairwell | X[-15,-12], Y[-3,3], Z[-8,7.2] |
+| VC-02 | Service Elevator | X[12,15], Y[-3,3], Z[-4,7.2] |
+| VC-03 | Maintenance Ladder Shaft | X[-38,-36], Y[18,21], Z[-8,-0.8] |
+
+VC-02 terminates at B-1. It does not directly serve B-2.
+
+VC-03 is air-gapped from the main observation/control network and is a deliberate information boundary.
+
+## 4. Corridor Spine
+
+Primary circulation:
+
+- Major spine: `Y[-12,12]`
+- Nominal width: `2.4 m`
+
+Peripheral maintenance/service routes:
+
+- West service route around `X[-39,-36]`
+- East service route around `X[36,39]`
+- Nominal width: `1.2 m`
+
+## 5. Portals
+
+### Ground
+
+- P-101-102 — center `(0,-24)`
+- P-102-HUB00 — center `(0,-12)`
+- P-HUB00-103 — center `(12,-6)`
+- P-102-104 — center `(-12,-18)`
+- P-HUB00-105 — center `(-12,-6)`
+
+### B-1
+
+- P-HUBB1-202 — center `(0,12)`
+- P-HUBB1-C202 — center `(-12,9)`
+- P-C202-201 — center `(-19.5,12)`
+- P-201-C203 — center `(-27,19.5)`
+- P-C203-VC03 — center `(-36,19.5)`, Z[-4,-1.6]
+- P-HUBB1-301 — center `(12,0)`
+- P-301-302 — center `(19.5,12)`
+- P-202-302 — center `(12,19.5)`
+
+R-201 ↔ R-202 is sealed.
+
+### B-2
+
+- P-401-C403 — center `(-15,-1.5)`, Z[-8,-5.6]
+- P-C403-402 — center `(-22.5,0)`
+- P-402-403 — center `(-27,15)`
+- P-403-VC03 — center `(-36,19.5)`, Z[-8,-4.8]
+- P-403-C499 — center `(-36,25.5)`, Z[-8,-4.8]
+- P-C499-EXT — center `(-40,25.5)`, Z[-8,-4.8]
+
+### +1
+
+- P-HUBU1-501 — center `(-12,7.5)`, max width `9 m`, Z[4,6.4]
+- P-HUBU1-C501 — center `(12,7.5)`, max width `9 m`, Z[4,6.4]
+- P-C501-503 — center `(15,12)`, max width `18 m`, Z[4,6.4]
+- P-501-502 — center `(-19.5,-3)`, max width `15 m`, Z[4,6.4]
+
+## 6. Exterior Interfaces
+
+- R-101 opens south through the primary entrance.
+- C-499 breaches the west building boundary.
+- The final escape exits through `P-C499-EXT`.
+
+The exterior perimeter remains outside the structural envelope and is not represented as additional interior rooms.
+
+## 7. Removed / Optional Spaces
+
+### Permanently removed
+
+`C-201` is not a separate space.
+
+### Sealed
+
+The direct R-201 ↔ R-202 relationship is sealed.
+
+### Optional and unresolved
+
+- C-401 Deep Spine — proposed only
+- R-404 Main Cooling Plant — proposed only
+
+Neither is part of the canonical connectivity graph and neither may be added merely to fill unused space.
+
+## 8. Canonical Connectivity
+
+### Ground
+
+`Exterior → R-101 → R-102 → HUB-00 → R-103`
+
+R-102 and HUB-00 provide the principal Ground Floor circulation.
+
+### B-1 west
+
+`HUB-B1 → C-202 → R-201 → C-203 → VC-03`
+
+### B-1 east
+
+`HUB-B1 → R-202 / R-301 → R-302`
+
+### B-2
+
+`VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior`
+
+R-403 also connects to VC-03.
+
+### +1
+
+`HUB-U1 → R-501`
+`HUB-U1 → C-501 → R-503`
+`R-501 ↔ R-502`
+
+## 9. Frozen Safety Rules
+
+- No room may connect only by corner contact.
+- No portal may bridge an actual gap.
+- No portal may occupy an incompatible floor elevation.
+- No route may depend on an absent vertical connection.
+- No implementation may invent architecture outside this registry without a documented design revision.
+
+============================================================
+FILE: ./design/COORDINATE_SYSTEM.md
+============================================================
+# THE OTHER SIDE — COORDINATE SYSTEM
+
+**Status:** LOCKED
+**Phase:** Mapping / Coordinate Truth complete
+**Implementation:** Not started
+
+## 1. Purpose
+
+This document defines the rules for the canonical Rosslyn coordinate system. It is a spatial contract for later production.
+
+The coordinate registry is authoritative for actual room and portal coordinates. This document defines the rules; it does not replace the registry.
+
+## 2. Canonical World Space
+
+- Origin: `(0, 0, 0)`
+- Logical unit: `1 unit = 1 metre`
+- Structural grid: `3 m`
+- Design snap grid: `1 m`
+- Fine placement is permitted only when required by a locked architectural dimension.
+- World envelope: `X [-40, 40]`, `Y [-30, 30]`
+
+The origin is the central reference of the Rosslyn Ground Floor plan.
+
+## 3. Axes
+
+The logical design coordinate system is:
+
+- X = east / west
+- Y = north / south
+- Z = vertical elevation
+
+All mapping decisions are expressed in this system.
+
+Any later Blender export conversion must be documented once. Runtime code must never compensate for an undocumented axis change.
+
+## 4. Floors
+
+| Level | Floor elevation |
+|---|---:|
+| +1 | `Z = 4` |
+| 0 | `Z = 0` |
+| B-1 | `Z = -4` |
+| B-2 | `Z = -8` |
+
+Nominal floor-to-floor separation is `4 m`.
+
+Typical occupied clear height is `3.2 m`; the remaining `0.8 m` is reserved for structural/services/plenum interpretation where appropriate.
+
+## 5. Architectural Envelope
+
+The mapped building occupies:
+
+`X [-40,40] × Y [-30,30]`
+
+This is the planning envelope, not a statement that every point is occupied.
+
+Unused areas remain intentionally available for circulation, structure, service infrastructure, setbacks, or later detailed architectural subdivision only when justified by the Design Lock.
+
+## 6. Structural Rules
+
+- Primary structural module: `3 m × 3 m`
+- Secondary planning module: `1 m`
+- Standard interior wall thickness: `0.2 m`
+- Standard exterior wall thickness: `0.4 m`
+- Major corridors: `2.4 m`
+- Research/office corridors: `1.8 m`
+- Maintenance routes: `1.2 m`
+
+These are design targets and must not be used to silently alter the frozen room registry.
+
+## 7. Portal Rules
+
+A portal is a topological connection between two mapped spaces.
+
+Every portal must:
+1. connect two spaces that physically meet;
+2. have a defined center;
+3. have a defined width;
+4. have a defined vertical opening range when relevant;
+5. respect the floor elevations of both connected spaces;
+6. never be created solely to make a graph connected.
+
+Point-touching rooms are not valid connections.
+
+## 8. Vertical Connection Rules
+
+Vertical circulation is represented explicitly by vertical cores.
+
+- VC-01: main stair
+- VC-02: service elevator
+- VC-03: maintenance ladder shaft
+
+A vertical route must have a continuous physical interpretation. A connection cannot jump between floors without a mapped vertical mechanism.
+
+## 9. Collision/Geometry Rule for Later Production
+
+Visual geometry and collision must share the same canonical spatial reference.
+
+No later implementation may:
+- rotate the world to fix an export;
+- swap axes per segment;
+- offset collision to compensate for bad geometry;
+- invent walls that are absent from the map;
+- omit mapped walls because implementation is inconvenient.
+
+## 10. Change Control
+
+The coordinate registry is frozen.
+
+If a design problem is discovered:
+1. identify the affected design decision;
+2. determine whether the problem is architectural or coordinate-related;
+3. prefer correcting the design specification;
+4. change coordinates only through an explicit coordinate revision;
+5. update all dependent documents.
+
+No silent coordinate changes are permitted.
+
+## 11. Authoritative Source Order
+
+1. `design/COORDINATE_REGISTRY.md`
+2. `design/DESIGN_LOCK.md`
+3. `docs/MASTER_SPEC.md`
+4. `docs/DECISIONS.md`
+5. supporting design documents
+
+When an older document conflicts with the frozen registry, the registry wins and the older document must be corrected.
+
+============================================================
+FILE: ./design/DESIGN_LOCK.md
+============================================================
+# THE OTHER SIDE — DESIGN LOCK
+
+**Status:** DESIGN LOCK COMPLETE
+**Phase 19:** PASSED
+**Mapping:** COMPLETE
+**Coordinate Truth:** FROZEN
+**Production Modelling:** NOT STARTED
+**Implementation Gate:** OPEN
+
+## 1. Purpose
+
+This is the master design specification between mapping and implementation.
+
+The project sequence is:
+
+**MAPPING → COORDINATES → DESIGN LOCK → CODING → BLENDER → GODOT**
+
+No later implementation phase may redesign the facility or invent a core gameplay rule that is not defined here or in the supporting canonical specifications.
+
+## 2. Non-Negotiable North Star
+
+> A psychological horror game where the player must understand an intelligence that understands them, then deliberately become something it cannot predict.
+
+Every major system, space, interaction, narrative beat, and technical implementation must support this.
+
+## 3. Source-of-Truth Hierarchy
+
+1. Frozen coordinate registry
+2. This Design Lock
+3. Master specification
+4. Decision log
+5. Architectural program
+6. System state matrix
+7. Supporting design documents
+
+Older statements that conflict with the frozen registry are obsolete.
+
+## 4. World
+
+Rosslyn is a believable research facility in the Pacific Northwest, surrounded by dense coastal forest and a controlled perimeter.
+
+The architecture is grounded institutional research architecture with industrial service infrastructure and a mixture of digital and older analog/pre-digital systems.
+
+The building is not a generic futuristic laboratory.
+
+## 5. Architecture
+
+Architecture is fundamentally static.
+
+The following may change between Acts:
+
+- access permissions;
+- locks;
+- surveillance coverage;
+- lighting;
+- power states;
+- environmental controls;
+- alarms;
+- system routing;
+- operational behavior.
+
+The following should not casually change:
+
+- room dimensions;
+- structural walls;
+- primary stairs;
+- major shafts;
+- canonical portals;
+- fundamental building topology.
+
+## 6. Facility Hierarchy
+
+### Sector A — Public / Administration
+
+Arrival, reception, records, executive oversight and controlled public-facing infrastructure.
+
+### Sector B — Behavioral Research
+
+Observation, behavioral control, research spaces and evidence concerning human behavioral experimentation.
+
+### Sector C — Security / Data
+
+Diagnostic systems, security infrastructure and server/data functions.
+
+### Sector D — Infrastructure / Utilities
+
+Power, relays, legacy systems, maintenance routes and the final pre-digital escape path.
+
+## 7. Core Spatial Principle
+
+The player should be able to understand Rosslyn spatially.
+
+Important systems should have physical relationships.
+
+A player who studies the facility should be able to form hypotheses about:
+
+- where power originates;
+- which doors depend on which systems;
+- where surveillance can and cannot see;
+- how routes intersect;
+- where maintenance access exists;
+- where information can become isolated.
+
+## 8. Act Structure
+
+### Act I — The Subject
+
+Primary experience:
+
+- normal institutional environment;
+- isolation;
+- uncertain infrastructure failure;
+- early observation;
+- first evidence of abnormal facility response.
+
+Player question:
+
+**“How do I avoid it?”**
+
+Mirror stage:
+
+**Observation → Recognition**
+
+### Act II — The Observer
+
+Primary experience:
+
+- investigation;
+- controlled experiments;
+- route manipulation;
+- false patterns;
+- active Mirror adaptation;
+- counter-testing.
+
+Player question:
+
+**“How does it know what I do?”**
+
+Mirror stage:
+
+**Prediction → Adaptation → Deception**
+
+### Act III — The Overfit
+
+Primary experience:
+
+- increasingly hostile systemic control;
+- reduced safe assumptions;
+- deliberate manipulation;
+- discovery of information outside the Mirror's model;
+- final route through B-2 legacy infrastructure;
+- genuine escape.
+
+Player question:
+
+**“What does it not know?”**
+
+Mirror stage:
+
+**Overfitting → Escape**
+
+## 9. Mirror Rules
+
+The Mirror:
+
+- observes;
+- learns;
+- predicts;
+- adapts;
+- counter-tests;
+- can be wrong;
+- can overfit;
+- cannot read thoughts;
+- cannot access arbitrary engine state;
+- cannot know information it could not legitimately observe or infer;
+- cannot retain failed-timeline knowledge after reload.
+
+Every meaningful intervention must have a causal chain:
+
+**Observed data → learned pattern → contextual prediction → intervention**
+
+The implementation may choose the exact physical/systemic manifestation of an intervention only when that manifestation remains consistent with the locked system-state, access, surveillance, acoustic and electrical frameworks.
+
+The implementation may not invent magical control, arbitrary hazards, or unexplained knowledge.
+
+## 10. Final Mirror Causality
+
+The final Mirror failure is an **overfitting failure**, not a failure of intelligence.
+
+The locked design rule is:
+
+1. The Mirror observes Shamshir's behavior through legitimate facility pathways.
+2. It progressively learns increasingly sophisticated behavioral patterns.
+3. It becomes increasingly prepared to interpret late-game deviations as another layered behavioral or systemic deception.
+4. Shamshir acquires information through an observation boundary the Mirror does not fully observe.
+5. Shamshir deliberately uses that information to make a choice whose strategic significance the Mirror's model does not correctly represent.
+6. The Mirror responds according to its incorrect prediction through already-established facility/system relationships.
+7. That prediction failure creates a **temporary opening**.
+8. Shamshir exploits the opening using the legacy infrastructure vulnerability.
+9. The Mirror survives.
+
+The exact visual, hardware, animation and runtime implementation of the intervention are not Design Lock decisions.
+
+The causal relationship is Design Lock.
+
+## 11. Technician Vulnerability
+
+The previous technician was a mid-level Rosslyn maintenance technician.
+
+He:
+
+1. noticed abnormal observation;
+2. investigated the infrastructure;
+3. discovered a physical vulnerability in pre-existing infrastructure;
+4. documented it;
+5. attempted to exploit it;
+6. failed to complete the final strategy.
+
+The vulnerability is a real discrepancy between physical legacy infrastructure and the information/control model available to the Mirror.
+
+The Mirror is not required to be unable to visually observe the physical system.
+
+The locked rule is instead:
+
+**The physical system exists, but its strategic significance and relevant relationship to the escape route are not fully represented within the Mirror's reliable model.**
+
+The technician discovered this discrepancy and left evidence that allows Shamshir to understand it.
+
+Exact hardware type, physical interaction, animation, control input and implementation mechanism remain implementation details.
+
+## 12. Information Asymmetry
+
+Information acquired outside the Mirror's legitimate observation can provide a strategic advantage.
+
+Air-gapped and physically isolated systems are genuine information boundaries where established by the world design.
+
+The Mirror may observe Shamshir interacting with evidence without automatically receiving the meaning Shamshir derives from it.
+
+The player must never win because the Mirror is arbitrarily blind.
+
+The player wins because the Mirror's available information and interpretation are limited.
+
+## 13. Player
+
+Shamshir is an auditor, not a soldier.
+
+The game rewards:
+
+- observation;
+- memory;
+- deduction;
+- spatial reasoning;
+- experimentation;
+- patience;
+- deliberate action.
+
+There is no conventional combat loop.
+
+## 14. Investigation
+
+Evidence is distributed across:
+
+- environmental details;
+- technical records;
+- audio/communications;
+- architecture;
+- maintenance traces;
+- technician evidence.
+
+No single document should explain the entire truth.
+
+The notebook is an evidence archive, not a quest tracker or automatic solution generator.
+
+## 15. Previous Technician
+
+The technician's trail demonstrates that someone before Shamshir:
+
+- noticed the abnormal observation;
+- investigated the infrastructure;
+- discovered the vulnerability;
+- documented it;
+- attempted to exploit it;
+- failed to complete the final strategy.
+
+His fate remains unresolved.
+
+The trail provides knowledge, not an automatic solution.
+
+## 16. Staff Mystery
+
+Staff disappearance remains ambiguous.
+
+The environment must support conflicting interpretations without using gore or explicit confirmation.
+
+Possible evidence may conflict between:
+
+- official paperwork;
+- physical traces;
+- research records;
+- emergency procedures;
+- maintenance logs.
+
+The player can establish that something went wrong without receiving a definitive metaphysical explanation.
+
+## 17. Horror
+
+Horror is:
+
+- psychological;
+- environmental;
+- systemic;
+- information-driven.
+
+The facility itself communicates threat.
+
+There is no proximity meter.
+
+There is no conventional enemy HUD.
+
+Jumpscares are rare and subordinate to sustained uncertainty.
+
+## 18. Revisit Principle
+
+A room should feel different because its system state or informational significance has changed, not because its architecture was arbitrarily replaced.
+
+Examples:
+
+- a previously normal corridor becomes monitored;
+- a familiar door changes lock state;
+- a light circuit becomes unreliable;
+- a route that was safe becomes predictable;
+- an old system becomes strategically useful.
+
+## 19. Final Escape
+
+The canonical B-2 route is:
+
+**VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior**
+
+The escape is not a boss fight.
+
+The causal strategy is:
+
+**technician knowledge + understanding of the Mirror's predictive behavior + information outside the Mirror's model + deliberate pattern violation → prediction failure → temporary opening → legacy vulnerability exploitation → C-499 → exterior**
+
+C-499 is the genuinely unmonitored final transition from Rosslyn interior to exterior.
+
+The exact interaction required to exploit the legacy vulnerability is intentionally not specified at design level.
+
+Shamshir genuinely escapes.
+
+The Mirror survives.
+
+There is no fake-out reversal.
+
+## 20. Design Classification
+
+### LOCKED
+
+- North Star
+- core gameplay loop
+- Mirror information boundaries
+- Mirror causal intervention rule
+- Mirror overfitting rule
+- technician vulnerability principle
+- information asymmetry principle
+- non-combat philosophy
+- Rosslyn setting
+- frozen coordinate registry
+- canonical room topology
+- B-2 escape route
+- genuine ending
+- ambiguous Mirror origin
+- ambiguous technician fate
+- static architecture / dynamic systems
+- final escape causal chain
+
+### PROVISIONAL / IMPLEMENTATION-LEVEL
+
+- exact prop inventories;
+- exact hardware appearance;
+- exact camera/sensor models;
+- exact interaction timings;
+- exact input mappings;
+- exact animations;
+- exact collider/node/script structure;
+- exact Mirror prediction algorithm;
+- exact Mirror intervention manifestation;
+- exact save-terminal presentation;
+- exact evidence wording;
+- exact audio assets.
+
+### OPEN
+
+Only non-core implementation details may remain open.
+
+No open question may require a programmer or artist to invent a core gameplay rule.
+
+### REJECTED
+
+- conventional combat;
+- omniscient Mirror;
+- telepathic Mirror;
+- arbitrary monster roster;
+- random behavior as the solution;
+- fake-out ending;
+- architecture changing merely for spectacle;
+- unexplained magical knowledge;
+- gore-driven horror;
+- generic sci-fi architecture;
+- unsupported historical dates treated as canon;
+- arbitrary Mirror control unrelated to observed data;
+- a programmer-defined final escape rule.
+
+## 21. Production Gate
+
+Phase 19 has passed.
+
+Production may now begin.
+
+The production order remains:
+
+**MAPPING → COORDINATES → DESIGN LOCK → CODING → BLENDER → GODOT**
+
+Implementation must consume the frozen design.
+
+Implementation may resolve presentation and technical details, but may not silently redefine:
+
+- architecture;
+- coordinates;
+- topology;
+- Mirror information boundaries;
+- causal prediction rules;
+- technician vulnerability principle;
+- final escape causality;
+- ending.
+
+============================================================
+FILE: ./design/GAME_DESIGN.md
+============================================================
+# THE OTHER SIDE — GAME DESIGN
+
+## 1. Design Goal
+
+THE OTHER SIDE is a psychological horror game centered on behavioral prediction.
+
+The primary skill is understanding systems and behavior.
+
+## 2. Core Verbs
+
+**Explore → Observe → Inspect → Investigate → Infer → Test → Hide → Manipulate → Deceive → Adapt → Escape**
+
+## 3. Core Loop
+
+**Explore → Observe → Investigate → Hypothesize → Test → Mirror Adapts → Deceive → Mirror Counter-Tests → Discover Information Outside Its Model → Exploit → Escape**
+
+## 4. Progression
+
+Act I asks how to avoid the Mirror.
+
+Act II asks how the Mirror knows.
+
+Act III asks what the Mirror cannot correctly know or interpret.
+
+## 5. Deception
+
+A successful deception:
+
+1. causes the Mirror to commit toward an incorrect expectation;
+2. creates a temporary opening;
+3. produces observable consequences;
+4. lets the player infer the expectation;
+5. teaches the Mirror something afterward.
+
+No deception is a permanent exploit.
+
+## 6. Prediction
+
+Prediction is never arbitrary.
+
+The Mirror predicts from:
+
+- observed routes;
+- timing;
+- repeated choices;
+- system interactions;
+- known access;
+- contextual behavior.
+
+The exact prediction algorithm is implementation-level.
+
+## 7. Counter-Testing
+
+The Mirror can deliberately create situations that test Shamshir's:
+
+- trust;
+- risk tolerance;
+- route preferences;
+- response to uncertainty;
+- willingness to repeat behavior.
+
+These tests must use Rosslyn's real infrastructure.
+
+## 8. Overfitting
+
+Late in the game the Mirror becomes sophisticated enough to expect layered deception.
+
+Its sophistication becomes a weakness.
+
+The final error is not random stupidity. It is an incorrect interpretation produced by an overcomplicated model.
+
+The Mirror can observe physical actions without necessarily assigning them the correct strategic meaning.
+
+## 9. Final Strategy
+
+Shamshir's final strategy combines:
+
+1. knowledge obtained from the previous technician's trail;
+2. understanding of how the Mirror predicts behavior;
+3. information acquired outside the Mirror's complete observation;
+4. deliberate violation of the Mirror's overfit expectation.
+
+The legacy vulnerability is real and pre-existing.
+
+The Mirror's failure creates a temporary opening.
+
+Shamshir uses that opening to exploit the legacy vulnerability and enter the canonical B-2 escape route.
+
+The exact hardware interaction remains implementation-level.
+
+## 10. Combat
+
+There is no conventional combat.
+
+The environment is the player's defensive and strategic tool.
+
+## 11. Failure
+
+Failure represents successful containment/interception.
+
+The presentation remains non-graphic.
+
+Reload restores the exact saved state, including the Mirror's behavioral state.
+
+## 12. Player Agency
+
+The player must be able to:
+
+- test theories;
+- make mistakes;
+- choose routes;
+- interpret evidence;
+- discover patterns;
+- deliberately vary behavior;
+- deceive the Mirror;
+- exploit information asymmetry.
+
+The game must not replace deduction with automatic conclusions.
+
+## 13. Final Escape
+
+The frozen route is:
+
+**VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior**
+
+C-499 is the genuinely unmonitored final transition.
+
+The escape is causal rather than lucky:
+
+**technician knowledge + Mirror understanding + information asymmetry + deliberate pattern violation → incorrect prediction → temporary opening → legacy vulnerability → escape**
+
+The Mirror survives.
+
+============================================================
+FILE: ./design/HORROR_SYSTEMS.md
+============================================================
+# THE OTHER SIDE — HORROR SYSTEMS
+
+## 1. Horror Principle
+
+The horror comes from being understood by something that can use that understanding against you.
+
+## 2. Psychological Horror
+
+The player gradually loses confidence in the assumption that familiar behavior is safe.
+
+## 3. Environmental Horror
+
+Rosslyn communicates threat through:
+- changing access;
+- altered lighting;
+- unusual system states;
+- environmental traces;
+- infrastructure behavior;
+- distant physical presence.
+
+## 4. Systemic Horror
+
+A familiar system becoming strategically hostile is more important than visual spectacle.
+
+Examples:
+- a familiar route becomes monitored;
+- a door responds differently;
+- an expected light state changes;
+- a system behaves correctly but at the wrong strategic moment.
+
+## 5. Mirror Presence
+
+Early:
+- indirect environmental reaction.
+
+Middle:
+- ambiguous physical presence.
+
+Late:
+- undeniable obstruction or presence without fully classifying its anatomy.
+
+## 6. Jumpscares
+
+Rare.
+
+They must not replace investigation or prediction mechanics.
+
+The final horror payoff comes from the Mirror being highly intelligent yet still capable of a causal interpretive error through overfitting.
+
+## 7. No Horror HUD
+
+Do not use:
+- proximity meters;
+- sanity bars;
+- conventional enemy HUDs;
+- explicit Mirror confidence meters.
+
+The player should infer danger.
+
+## 8. Safety of Interpretation
+
+The game may create uncertainty about meaning.
+
+It should not create uncertainty by breaking its own physical rules.
+
+The player should be able to reason backward from consequences.
+
+============================================================
+FILE: ./design/LEVEL_DESIGN.md
+============================================================
+# THE OTHER SIDE — LEVEL DESIGN
+
+## 1. Topology
+
+Rosslyn uses:
+- a central circulation structure;
+- layered loops;
+- controlled progression gates;
+- vertical cores;
+- service routes;
+- genuine blind spots.
+
+## 2. Canonical Graph
+
+### Ground
+
+Exterior → R-101 → R-102 → HUB-00 → R-103
+
+### B-1 West
+
+HUB-B1 → C-202 → R-201 → C-203 → VC-03
+
+### B-1 East
+
+HUB-B1 → R-202 / R-301 → R-302
+
+R-201 and R-202 are sealed from each other.
+
+### B-2
+
+VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior
+
+R-403 also connects to VC-03.
+
+### +1
+
+HUB-U1 → R-501
+
+HUB-U1 → C-501 → R-503
+
+R-501 ↔ R-502
+
+## 3. Verticality
+
+VC-01 is the primary stair.
+
+VC-02 is the service elevator and terminates at B-1.
+
+VC-03 is the air-gapped maintenance shaft.
+
+Vertical routes must remain physically legible.
+
+## 4. Circulation
+
+Major routes use approximately 2.4 m width.
+
+Secondary research/office routes target 1.8 m.
+
+Maintenance routes target 1.2 m.
+
+## 5. Sightlines
+
+Sightlines should be intentionally designed around:
+- observation;
+- occlusion;
+- thresholds;
+- corners;
+- controlled openings;
+- vertical relationships.
+
+Do not create arbitrary sightline blockers.
+
+## 6. Acoustic Relationships
+
+Acoustic exposure must follow architecture and infrastructure.
+
+Mechanical noise can mask or reveal activity.
+
+Acoustic isolation can create genuine information boundaries.
+
+## 7. Progression
+
+Story controls access to new sectors.
+
+The player controls behavior inside accessible sectors.
+
+## 8. Revisit Design
+
+Revisits should alter:
+- surveillance;
+- lighting;
+- access;
+- system operation;
+- sound;
+- Mirror expectations.
+
+The underlying architecture remains recognizable.
+
+## 9. Final Route
+
+The final escape uses the B-2 legacy route and exits through C-499.
+
+It must be possible because of established spatial and system logic, not because a new hallway appears.
+
+============================================================
+FILE: ./design/MIRROR_AI.md
+============================================================
+# THE OTHER SIDE — MIRROR DESIGN
+
+## 1. Nature
+
+The Mirror is an intelligent adaptive observational entity/system.
+
+Its fundamental nature remains unresolved.
+
+Machine, anomaly and hybrid interpretations remain possible.
+
+## 2. Information Boundary
+
+The Mirror may use:
+
+- cameras;
+- microphones;
+- sensors;
+- direct observation;
+- physical system activity;
+- door events;
+- terminal events;
+- electrical events;
+- access events;
+- legitimate environmental traces.
+
+It cannot:
+
+- read thoughts;
+- directly read intent;
+- access arbitrary engine state;
+- know unobserved information;
+- magically see through architecture;
+- retain failed-timeline knowledge after reload.
+
+The Mirror can observe physical reality without necessarily understanding the strategic meaning of what it observes.
+
+## 3. Learning Stages
+
+1. Observation
+2. Recognition
+3. Prediction
+4. Adaptation
+5. Deception recognition
+6. Overfitting
+7. Escape vulnerability
+
+These are conceptual stages, not UI.
+
+## 4. Learning Quality
+
+Learning depends on:
+
+- observation quality;
+- observation quantity;
+- behavioral consistency;
+- contextual relevance;
+- complexity.
+
+The Mirror learns imperfectly.
+
+## 5. Deception
+
+The Mirror can eventually identify deliberate false patterns.
+
+It should respond by testing rather than instantly knowing the truth.
+
+## 6. Counter-Test Rule
+
+Every important Mirror intervention must be explainable:
+
+**Observed data → learned pattern → prediction → intervention**
+
+If that chain cannot be reconstructed from the designed world, the behavior is invalid.
+
+## 7. Overfitting
+
+Overfitting occurs when the Mirror assigns excessive significance to a complex behavioral interpretation.
+
+It still sees physical evidence when a legitimate observation pathway provides it.
+
+Its mistake is what the evidence means and how that meaning is incorporated into its behavioral model.
+
+## 8. Final Failure
+
+The final failure is not random stupidity.
+
+The Mirror has progressively learned that Shamshir tests its predictions and deliberately creates false patterns. As a result, it develops an increasingly sophisticated expectation of his late-game behavior.
+
+Shamshir then acquires information through a genuine observation boundary and deliberately uses a legacy infrastructure vulnerability whose strategic significance is not correctly represented in the Mirror's model.
+
+The Mirror sees relevant actions where its observation pathways permit.
+
+It nevertheless interprets the action incorrectly.
+
+Its incorrect prediction produces a causal, temporary opening through already-established facility/system relationships.
+
+The exact physical manifestation of that opening is implementation-level.
+
+The design-level rule is fixed:
+
+**overfit → incorrect prediction → temporary opening → legacy vulnerability exploited → escape**
+
+The Mirror survives.
+
+## 9. Technician Relationship
+
+The previous technician discovered a physical vulnerability in pre-existing infrastructure.
+
+The vulnerability is not supernatural and does not depend on Shamshir.
+
+The technician's evidence allows Shamshir to understand a discrepancy between physical infrastructure and the Mirror's reliable model.
+
+The exact hardware and interaction are not specified at this level.
+
+## 10. Persistence
+
+Save/load restores the Mirror exactly.
+
+A failed timeline cannot teach the next loaded timeline.
+
+## 11. Presentation
+
+The Mirror is communicated through:
+
+- environmental reactions;
+- system behavior;
+- indirect evidence;
+- progressively stronger physical presence.
+
+It does not require a conventional monster identity.
+
+## 12. Validation
+
+No Mirror behavior is valid merely because it is frightening.
+
+It must be:
+
+- causally motivated;
+- physically possible within the designed world;
+- supported by an observation path;
+- consistent with its current learned model;
+- bounded by established facility systems;
+- incapable of using player intent or hidden engine state.
+
+Exact algorithmic implementation is not part of the Design Lock.
+
+============================================================
+FILE: ./design/PLAYER.md
+============================================================
+# THE OTHER SIDE — PLAYER DESIGN
+
+## 1. Role
+
+The player controls Shamshir.
+
+Shamshir is a professional systems/security auditor.
+
+He is not a soldier.
+
+## 2. Skills
+
+The game rewards:
+- observation;
+- memory;
+- spatial awareness;
+- deduction;
+- experimentation;
+- patience;
+- deliberate decision-making.
+
+## 3. Movement
+
+Movement supports:
+- exploration;
+- route experimentation;
+- observation;
+- stealth;
+- physical interaction.
+
+It should not become action-combat movement.
+
+## 4. Interaction
+
+Ordinary objects are quick to inspect.
+
+Professionally relevant systems support deeper inspection.
+
+Examples:
+- electrical panels;
+- terminals;
+- cameras;
+- relays;
+- mechanical systems;
+- access systems;
+- architectural infrastructure.
+
+## 5. Tools
+
+Tools must be grounded in what an auditor could reasonably carry or use.
+
+Exact implementation inventory remains separate from the world-design lock.
+
+## 6. Notebook
+
+The notebook is a diegetic evidence archive.
+
+It stores:
+- observations;
+- system notes;
+- route annotations;
+- evidence;
+- technical findings.
+
+It does not automatically solve puzzles.
+
+## 7. Map
+
+Shamshir has architectural/audit plans.
+
+Plans represent intended structure and may be incomplete or outdated.
+
+Physical reality takes precedence.
+
+The player may annotate findings.
+
+## 8. Stealth
+
+Stealth is information management.
+
+The player can:
+- reduce exposure;
+- vary routes;
+- exploit blind spots;
+- alter behavior;
+- manipulate systems.
+
+## 9. Hiding
+
+Physical concealment avoids observation.
+
+Behavioral concealment breaks established patterns.
+
+Both matter.
+
+## 10. Combat
+
+No conventional combat.
+
+Infrastructure is the primary defensive tool.
+
+## 11. Failure
+
+Failure is systemic containment/interception.
+
+Presentation remains non-graphic.
+
+Reload restores the saved state.
+
+## 12. Progression
+
+Shamshir does not become superhuman.
+
+His progression is intellectual:
+
+**Facility → Mirror → Prediction → Deception → Counter-prediction → Vulnerability**
+
+## 13. Agency
+
+The player must be allowed to:
+- test theories;
+- make mistakes;
+- choose routes;
+- interpret evidence;
+- discover patterns;
+- deceive the Mirror.
+
+The game must not automatically decide what the player should conclude.
+
+The final escape requires the player to connect technician evidence, Mirror behavior and information asymmetry rather than receive an automatic solution.
+
+============================================================
+FILE: ./design/PROGRESS.md
+============================================================
+# THE OTHER SIDE — PROJECT PROGRESS
+
+## CURRENT PHASE
+
+**Phase:** Implementation Preparation
+**Design Lock:** COMPLETE
+**Phase 19:** PASSED
+**Implementation Gate:** OPEN
+
+**Mapping:** COMPLETE
+**Coordinate Truth:** COMPLETE
+**Coordinate Audit:** PASSED
+**Coding:** NOT STARTED
+**Blender Production:** NOT STARTED
+**Godot Integration:** NOT STARTED
+
+## COMPLETED
+
+### Concept
+
+- Psychological horror
+- Mirror-centered gameplay
+- Investigation
+- Information asymmetry
+- Deliberate pattern violation
+
+### Narrative
+
+- Shamshir defined
+- Rosslyn defined
+- Mirror defined
+- Technician defined
+- Staff mystery defined
+- Ending defined
+- Final escape causality defined
+
+### Mapping
+
+- Facility envelope frozen
+- Four-level structure frozen
+- Core rooms mapped
+- Portals mapped
+- Vertical cores mapped
+- B-1 west route repaired
+- B-2 route repaired
+- Final escape route mapped
+- B-2 elevation correction completed
+- Optional C-401/R-404 kept outside canonical graph
+
+### Design Lock
+
+- Architectural program
+- System state matrix
+- Surveillance topology
+- Acoustic relationships
+- Lighting/electrical states
+- Access dependencies
+- Evidence placement
+- Technician trail
+- Act-by-act revisit states
+- Interaction specification
+- Final validation checklist
+- Technician vulnerability rule
+- Mirror final causality
+- Final escape causality
+
+## CURRENTLY FROZEN
+
+- Coordinate registry
+- Core topology
+- Floor elevations
+- Portal topology
+- Major corridor strategy
+- Vertical-core topology
+- B-2 escape path
+- Mirror information boundaries
+- Mirror causal intervention rule
+- Technician vulnerability principle
+- Final escape causal chain
+- Ending
+
+## ROADMAP
+
+The roadmap remains frozen and is not reordered:
+
+1. Map / Spatial Design — LOCKED
+2. Era / Architectural Identity — LOCKED
+3. Architecture — LOCKED
+4. Material + Color + Lighting — LOCKED
+5. Props + Furniture + Accessories — LOCKED
+6. Signage + Wayfinding — LOCKED
+7. Doors + Windows + Openings + Vertical Circulation — LOCKED
+8. Ceilings + Floors + Wall Construction Details — LOCKED
+9. Architectural Program — LOCKED
+10. System State Matrix — LOCKED
+11. Surveillance Topology — LOCKED
+12. Acoustic Relationships — LOCKED
+13. Lighting / Electrical States — LOCKED
+14. Access Dependencies — LOCKED
+15. Evidence Placement — LOCKED
+16. Technician Trail — LOCKED
+17. Act-by-Act Revisit States — LOCKED
+18. Interaction Specification — LOCKED
+19. Final Validation Checklist — PASSED
+
+## IMPLEMENTATION GATE
+
+Implementation may now begin.
+
+Implementation must not invent:
+
+- new rooms;
+- new portals;
+- new coordinate systems;
+- new core Mirror abilities;
+- arbitrary observation powers;
+- arbitrary access dependencies;
+- a new final escape rule;
+- a new ending.
+
+Implementation may decide exact assets, meshes, animations, controls, scripts and other technical details where those decisions do not alter locked gameplay causality.
+
+============================================================
+FILE: ./design/STORY.md
+============================================================
+# THE OTHER SIDE — STORY
+
+## 1. Premise
+
+Shamshir arrives at Rosslyn Research Institute to perform a final safety/security audit before decommissioning.
+
+Rosslyn appears operational.
+
+An unexplained discrepancy leads him into a restricted area.
+
+Lockdown follows.
+
+The facility begins reacting to him.
+
+## 2. Act I — The Subject
+
+Shamshir initially assumes there is a physical or infrastructure explanation.
+
+He learns the facility.
+
+He begins noticing environmental reactions.
+
+The first realization is:
+
+**It sees me.**
+
+The Mirror is still mostly indirect.
+
+## 3. Act II — The Observer
+
+Shamshir investigates surveillance and control infrastructure.
+
+He performs controlled experiments.
+
+He discovers that repeated behavior can be predicted.
+
+He begins deliberate deception.
+
+The realization becomes:
+
+**It learns me.**
+
+Then:
+
+**It predicts me.**
+
+## 4. Act III — The Overfit
+
+The Mirror becomes highly adaptive.
+
+Its model increasingly incorporates Shamshir's attempts to deceive it.
+
+Shamshir discovers the limits of its information and interpretation.
+
+He learns from the previous technician's evidence.
+
+He reaches the B-2 legacy infrastructure.
+
+He deliberately uses information the Mirror did not fully observe him acquiring.
+
+The Mirror's increasingly sophisticated model misinterprets the strategic meaning of his final choice.
+
+Its incorrect prediction creates a temporary opening.
+
+Shamshir exploits the pre-existing legacy vulnerability.
+
+## 5. Previous Technician
+
+A mid-level maintenance technician previously recognized abnormal observation.
+
+He documented a physical vulnerability in pre-existing infrastructure.
+
+His evidence trail terminates before his fate can be confirmed.
+
+His records are useful because they provide facts and a way to understand the vulnerability, not because they solve the final escape automatically.
+
+## 6. Staff Mystery
+
+Rosslyn staff disappeared or were removed during the containment failure.
+
+The game does not confirm a single definitive explanation.
+
+Evidence can support competing interpretations.
+
+## 7. Mirror Origin
+
+The Mirror's origin remains unresolved.
+
+The story supports:
+
+- a machine/predictive-model interpretation;
+- a pre-existing anomaly interpretation;
+- a hybrid interpretation.
+
+No single interpretation is declared canon.
+
+## 8. Ending
+
+Shamshir exits Rosslyn.
+
+He genuinely escapes.
+
+The Mirror survives.
+
+The escape is not secretly revealed to have been predicted.
+
+The final success is real, but temporary.
+
+Rosslyn remains behind and shows a subtle indication of continued activity.
+
+## 9. Epilogue
+
+Shamshir prepares an official report.
+
+The official account reduces the incident to an administratively acceptable explanation.
+
+Separately, he maintains a private analytical archive containing:
+
+- Rosslyn system observations;
+- Mirror behavior;
+- interventions;
+- failures;
+- discovered vulnerability;
+- unanswered questions.
+
+The final state is resolution without complete explanation.
+
+============================================================
+FILE: ./design/SYSTEM_STATE_MATRIX.md
+============================================================
+# THE OTHER SIDE — SYSTEM STATE MATRIX
+
+**Status:** LOCKED DESIGN FRAMEWORK
+
+## 1. Principle
+
+**Architecture stays stable. System state changes.**
+
+A revisit should create tension through changed rules, not arbitrary remodelling.
+
+## 2. Act Matrix
+
+| System | Act I | Act II | Act III |
+|---|---|---|---|
+| Access | Mostly routine | Selective restrictions | Aggressive lockdown |
+| Lighting | Normal institutional | Selective failures/changes | Strategic darkness and controlled illumination |
+| Surveillance | Present but easy to misunderstand | Pattern becomes legible | Dense and deliberately adaptive |
+| Audio | Routine facility noise | Anomalous responses | Targeted/systemic responses |
+| Doors | Normal procedures | Security states become important | Lock states actively shape routes |
+| Power | Stable | Local dependencies become relevant | Power routing becomes strategically important |
+| Blind spots | Unrecognized | Discoverable | Essential |
+| Mirror intervention | Indirect | Frequent | Highly focused |
+| Player behavior | Exploration | Experimentation | Deliberate manipulation |
+
+## 3. Access States
+
+Door states should be causally tied to infrastructure.
+
+Possible states:
+
+- unlocked;
+- controlled;
+- restricted;
+- fail-safe;
+- fail-secure;
+- mechanically bypassable.
+
+Electronic access must trace to a real parent system.
+
+Exact hardware is implementation-level.
+
+## 4. Surveillance States
+
+Surveillance is spatial, not magical.
+
+Every observation point has:
+
+- physical position;
+- field of view;
+- occlusion;
+- acoustic relationship;
+- system connectivity.
+
+Blind spots are created by real architectural or infrastructure boundaries.
+
+Exact camera/sensor models are implementation-level.
+
+## 5. Lighting
+
+Lighting is both atmosphere and information.
+
+Early:
+
+- stable institutional lighting.
+
+Middle:
+
+- selected circuits change;
+- emergency systems become visible;
+- player learns that lighting states have causes.
+
+Late:
+
+- lighting becomes part of route and observation manipulation.
+
+## 6. Acoustic State
+
+Acoustic relationships follow architecture.
+
+A room can be:
+
+- acoustically exposed;
+- partially isolated;
+- mechanically noisy;
+- acoustically ambiguous;
+- genuinely isolated.
+
+Sound must not become an arbitrary detection meter.
+
+## 7. Infrastructure State
+
+Rosslyn contains mixed generations of infrastructure.
+
+The important design fact is coexistence between modern integrated systems and older legacy/pre-digital systems.
+
+No unsupported numerical percentage or historical date is part of the canon.
+
+The coexistence is functional, not decorative.
+
+Legacy systems are important because they can have different information and control properties from newer integrated systems.
+
+## 8. Mirror Intervention
+
+The Mirror does not simply toggle hazards because the player presses a button.
+
+Intervention must be based on:
+
+- observed behavior;
+- learned expectation;
+- available infrastructure;
+- current system state.
+
+Every meaningful intervention must remain consistent with:
+
+**Observed data → learned pattern → contextual prediction → intervention**
+
+The exact intervention and runtime algorithm remain implementation-level.
+
+## 9. Revisit Matrix
+
+### HUB-00
+
+Act I: orientation.
+
+Act II: familiar route becomes an experiment in prediction.
+
+Act III: route expectations become a liability.
+
+### C-203
+
+Act I: obscure maintenance route.
+
+Act II: discovered information blind spot.
+
+Act III: strategically important route.
+
+### R-401
+
+Act I: inaccessible/deep infrastructure.
+
+Act II: technical evidence.
+
+Act III: power/control relevance.
+
+### R-403
+
+Act I: unknown legacy space.
+
+Act II: technician evidence.
+
+Act III: final vulnerability and escape preparation.
+
+### C-499
+
+Act I: unknown.
+
+Act II: discovered as an infrastructure boundary.
+
+Act III: final escape route and genuinely unmonitored final transition.
+
+## 10. Systemic Escalation Rule
+
+Each Act should increase the consequences of being predictable.
+
+Act I teaches that Rosslyn reacts.
+
+Act II teaches why.
+
+Act III makes the player's accumulated understanding necessary for escape.
+
+============================================================
+FILE: ./design/TECHNICAL_SPEC.md
+============================================================
+# THE OTHER SIDE — TECHNICAL SPECIFICATION
+
+## 1. Current Status
+
+Architecture and coordinate truth are locked.
+
+Implementation is intentionally not started.
+
+Phase 19 has passed and the implementation gate is open.
+
+## 2. Production Order
+
+1. Mapping
+2. Coordinate truth
+3. Design Lock
+4. Coding specification
+5. Blender production
+6. Godot integration
+7. Validation
+
+## 3. Coordinate Standard
+
+- metric units;
+- one logical unit = one metre;
+- 3 m structural grid;
+- 1 m design snap;
+- canonical X/Y/Z system;
+- four levels: +1, 0, B-1, B-2.
+
+## 4. Geometry
+
+Later production must preserve:
+- room bounds;
+- portal topology;
+- floor elevations;
+- vertical cores;
+- corridor dimensions;
+- architectural hierarchy.
+
+## 5. Systems
+
+Later technical design must represent:
+- access control;
+- power dependencies;
+- surveillance;
+- audio/acoustic relationships;
+- lighting;
+- save state;
+- Mirror observation and behavioural state;
+- investigation evidence.
+
+## 6. Save State
+
+A save captures the relevant game state, including Mirror behavioural state.
+
+Reload restores the exact snapshot.
+
+No failed-timeline information leaks across reload.
+
+## 7. Validation
+
+Mandatory validation must include:
+- topology;
+- coordinate integrity;
+- vertical clearance;
+- circuit dependencies;
+- save-terminal accessibility;
+- blind-spot escape continuity.
+
+## 8. Technical Non-Goals
+
+Do not use technical shortcuts to solve design problems.
+
+Implementation must follow the map.
+
+============================================================
+FILE: ./design/VALIDATION_RULES.md
+============================================================
+# THE OTHER SIDE — VALIDATION RULES
+
+## 1. Purpose
+
+Validation protects the locked map from implementation drift.
+
+## 2. Rule V01 — No Disconnected Major Spaces
+
+Every canonical major space must have at least one valid topological connection unless explicitly designated as sealed or intentionally inaccessible.
+
+## 3. Rule V02 — Valid Portals
+
+A portal must:
+- connect touching spaces;
+- have a valid center;
+- have a compatible opening;
+- have compatible floor elevation;
+- not bridge a gap.
+
+Corner-only contact is invalid.
+
+## 4. Rule V03 — Escape Blind-Spot Continuity
+
+The Act III escape must contain a continuous sequence of genuinely unmonitored/isolated spaces from B-2 to exterior.
+
+The route must be physically represented by the coordinate registry.
+
+## 5. Rule V04 — Circuit Dependency Integrity
+
+Every electronic door must trace to a valid parent power/access-control dependency.
+
+No door may work because code says it works.
+
+## 6. Rule V05 — Vertical Clearance
+
+Player walking routes must maintain the required clear height.
+
+Default design target: `2.4 m` minimum.
+
+## 7. Rule V06 — Save Accessibility
+
+At least one diagnostic/save terminal must be reachable in each Act without creating an unavoidable progression deadlock.
+
+## 8. Rule V07 — Coordinate Consistency
+
+Blender source, exported GLB, Godot import and collision must preserve the same spatial relationships.
+
+## 9. Rule V08 — Collision/Visual Agreement
+
+Collision must correspond to intended physical architecture.
+
+No collision-only walls.
+
+No visible architectural wall without a corresponding intended physical boundary where traversal requires it.
+
+## 10. Rule V09 — Mirror Causality
+
+Every meaningful Mirror intervention must be traceable to:
+
+**Observed data → learned pattern → contextual prediction → intervention**
+
+The exact runtime algorithm and physical manifestation are implementation-level, but the causal relationship is mandatory.
+
+## 11. Rule V10 — No Hidden Knowledge
+
+The Mirror may not use:
+- engine state;
+- player intent;
+- unobserved information;
+- failed-timeline memory.
+
+## 12. Sign-Off
+
+A production build is not accepted until all mandatory rules pass.
+
+============================================================
+FILE: ./design/WORLD_DESIGN.md
+============================================================
+# THE OTHER SIDE — WORLD DESIGN
+
+## 1. Rosslyn
+
+Rosslyn is a believable behavioral research facility in the Pacific Northwest.
+
+It is isolated by dense coastal forest and a controlled perimeter.
+
+The facility appears institutional and operational rather than fantastical.
+
+## 2. Spatial Philosophy
+
+Rosslyn is a dense, interconnected facility.
+
+The player should build a mental map.
+
+The same spaces are revisited under different system conditions.
+
+## 3. Systems Must Be Visible
+
+Important infrastructure should exist physically:
+- relay cabinets;
+- electrical rooms;
+- access panels;
+- surveillance equipment;
+- mechanical junctions;
+- maintenance shafts;
+- service documentation;
+- architectural plans.
+
+## 4. Information Blind Spots
+
+Rosslyn contains real blind spots:
+- air-gapped equipment;
+- disconnected hardware;
+- old mechanical systems;
+- offline documentation;
+- physically isolated maintenance routes.
+
+These are necessary for the final information asymmetry.
+
+No unsupported historical date or numerical percentage is required to explain the layered infrastructure.
+
+## 5. Staff Presence
+
+Rosslyn initially appears operational.
+
+After lockdown there is no persistent companion.
+
+Human presence continues through:
+- recordings;
+- communications;
+- documentation;
+- environmental traces.
+
+## 6. Contradictory Evidence
+
+The world may contradict itself through:
+- official records versus physical evidence;
+- routine maintenance versus containment records;
+- ordinary research versus unusual protocols;
+- newer systems versus older infrastructure.
+
+The contradiction is intentional.
+
+## 7. Exterior
+
+The exterior establishes isolation.
+
+Most gameplay occurs indoors.
+
+The final escape crosses the facility boundary.
+
+## 8. Environmental Storytelling
+
+Narrative information should be distributed through physical space.
+
+The player should infer what happened rather than receive a complete exposition dump.
+
+## 9. World Rule
+
+A major space that has no believable function, system relationship, evidence value, Mirror relevance, or Act-state purpose should be removed or reconsidered.
+
+============================================================
+FILE: ./docs/CHANGELOG.md
+============================================================
+# THE OTHER SIDE — CHANGELOG
+
+## 2026-09-11 — Design Lock Complete
+
+### Completed
+
+- Completed Phase 19 final design-lock validation.
+- Locked technician vulnerability causality.
+- Locked Mirror overfitting causality.
+- Locked final escape causality.
+- Confirmed canonical B-2 escape route.
+- Confirmed C-499 as the genuinely unmonitored final transition.
+- Separated design-critical rules from implementation-level details.
+- Removed unsupported historical dates and numerical infrastructure percentages from canon.
+- Kept exact hardware, algorithms, animations, inputs and implementation architecture deferred.
+
+### Design Rules
+
+- Architecture is static.
+- Systems change across Acts.
+- Mirror observation has hard information boundaries.
+- Legacy infrastructure creates a genuine information asymmetry.
+- No conventional combat.
+- Final escape is deliberate and causal.
+- Mirror survives the ending.
+- No programmer may invent a core gameplay rule during implementation.
+
+### Production Order
+
+**MAPPING → COORDINATES → DESIGN LOCK → CODING → BLENDER → GODOT**
+
+### Current Status
+
+- Design Lock: COMPLETE
+- Phase 19: PASSED
+- Implementation Gate: OPEN
+- Production modelling: NOT STARTED
+- Blender generation: NOT STARTED
+- GLB production: NOT STARTED
+- Godot integration: NOT STARTED
+- Runtime implementation: NOT STARTED
+
+## 2026-09-10 — Design Lock Preparation
+
+### Completed
+
+- Re-established THE OTHER SIDE as the active project.
+- Frozen Rosslyn mapping.
+- Frozen coordinate truth.
+- Finalized canonical room registry.
+- Finalized portal topology.
+- Finalized vertical-core topology.
+- Finalized B-2 escape route.
+
+### Design Rules
+
+- Architecture is static.
+- Systems change across Acts.
+- Mirror observation has hard information boundaries.
+- No conventional combat.
+- Final escape is deliberate and causal.
+- Mirror survives the ending.
+
+## Change Control
+
+All future architectural changes must be explicitly documented and must not silently override the coordinate registry.
+
+============================================================
+FILE: ./docs/DECISIONS.md
+============================================================
+# THE OTHER SIDE — DESIGN DECISIONS
+
+This document records canonical decisions.
+
+## D001 — Core Genre
+
+Psychological horror with systemic survival, investigation and environmental interaction.
+
+## D002 — North Star
+
+A psychological horror game where the player must understand an intelligence that understands them, then deliberately become something it cannot predict.
+
+## D003 — Mirror
+
+The Mirror is an intelligent adaptive observational entity/system with unresolved fundamental nature.
+
+## D004 — No Omniscience
+
+The Mirror only knows what it can legitimately observe or infer.
+
+## D005 — No Telepathy
+
+The Mirror cannot directly read thoughts or intent.
+
+## D006 — Information Asymmetry
+
+Information acquired outside Mirror observation can provide a strategic advantage.
+
+## D007 — Learning
+
+The Mirror learns progressively from imperfect observation.
+
+## D008 — Deception
+
+The Mirror eventually recognizes deliberate false patterns and counter-tests Shamshir.
+
+## D009 — Prediction Failure
+
+Mirror failures must have causal explanations.
+
+## D010 — Overfitting
+
+Increasing model sophistication eventually creates interpretive error.
+
+## D011 — Final Victory
+
+Shamshir escapes through a transient vulnerability created by an incorrect Mirror prediction.
+
+The Mirror survives.
+
+## D012 — Combat
+
+No conventional combat.
+
+## D013 — Architecture
+
+Underlying architecture remains fundamentally static.
+
+Systems and accessibility may change.
+
+## D014 — World Structure
+
+Interconnected, act-gated sectors.
+
+## D015 — Investigation
+
+Diegetic evidence and player-driven deduction.
+
+## D016 — Technician
+
+Previous technician was a mid-level maintenance technician.
+
+Fate unknown.
+
+## D017 — Technician Evidence
+
+Physical markings, annotated technical material, hidden notebook and incomplete final record.
+
+## D018 — Staff Fate
+
+Unresolved.
+
+Evidence intentionally contradicts itself.
+
+## D019 — Rosslyn History
+
+Rosslyn genuinely conducted human behavioral research.
+
+Deeper history is compartmentalized.
+
+## D020 — Lockdown
+
+Lockdown results from failed containment.
+
+## D021 — Operational Facility
+
+The Mirror maintains enough critical infrastructure for Rosslyn to remain operational.
+
+## D022 — Shamshir
+
+Shamshir arrives for the final audit before decommissioning.
+
+## D023 — Opening
+
+Normal audit → unexplained discrepancy → restricted area → lockdown.
+
+## D024 — First Mirror Encounter
+
+Environmental reaction precedes clear visual confirmation.
+
+Progression:
+- It sees me.
+- It learns me.
+- It predicts me.
+
+## D025 — Mirror Objective
+
+Continuously refine behavioral model.
+
+Ultimate purpose remains unknown.
+
+## D026 — Mirror Success
+
+Increasingly accurate prediction and diminishing novel information.
+
+No explicit completion meter.
+
+## D027 — Technician Discovery
+
+Technician discovered a physical vulnerability in pre-existing infrastructure.
+
+## D028 — Final Strategy
+
+Technician knowledge + Mirror understanding + deliberate pattern violation.
+
+## D029 — Save
+
+Exact save-state restoration.
+
+No failed-timeline memory leakage.
+
+## D030 — Failure
+
+Detection leads to systemic containment rather than graphic instant-death presentation.
+
+## D031 — Physical Mirror
+
+Increasingly tangible while remaining visually ambiguous.
+
+## D032 — Environmental Horror
+
+Rosslyn communicates the Mirror's presence.
+
+No proximity meter.
+
+## D033 — Voice
+
+Sparse analyst commentary.
+
+## D034 — Music
+
+Restrained.
+
+Diegetic audio is primary.
+
+## D035 — Jumpscares
+
+Rare.
+
+## D036 — Ambiguity
+
+Machine, anomaly and hybrid interpretations remain possible.
+
+## D037 — Ending
+
+Shamshir genuinely escapes.
+
+Mirror survives.
+
+## D038 — Future Return
+
+Never explicitly resolved.
+
+## D039 — Final Image
+
+Human resolution contrasted with subtle evidence that Rosslyn remains active.
+
+## D040 — Production Gate
+
+No detailed modelling until world layout, dependencies, infrastructure, observation network, progression and validation are sufficiently specified.
+
+## D041 — Coordinate Truth
+
+The frozen coordinate registry is authoritative for actual room and portal coordinates.
+
+## D042 — Mapping Freeze
+
+Architecture may not be changed during implementation merely to solve technical problems.
+
+## D043 — Project Sequence
+
+**MAPPING → COORDINATES → DESIGN LOCK → CODING → BLENDER → GODOT**
+
+## D044 — Technician Vulnerability Rule
+
+The final physical vulnerability is a discrepancy between pre-existing legacy infrastructure and the Mirror's reliable information/control model.
+
+The physical system is real and exists independently of Shamshir.
+
+The exact hardware and physical interaction are implementation-level details.
+
+## D045 — Final Mirror Causality
+
+The Mirror's final failure is caused by overfitting.
+
+The Mirror increasingly expects sophisticated behavioral deception. Shamshir deliberately violates that expectation using information and infrastructure whose strategic significance is not correctly represented in the Mirror's model.
+
+The resulting intervention follows established facility/system relationships and creates a temporary opening.
+
+No magical control or arbitrary intervention is permitted.
+
+## D046 — Final Escape Causality
+
+Shamshir combines:
+
+1. technician-derived knowledge;
+2. understanding of the Mirror's predictive behavior;
+3. information acquired outside the Mirror's complete observation;
+4. deliberate pattern violation.
+
+He then exploits the pre-existing legacy vulnerability and follows:
+
+**VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior**
+
+C-499 is the genuinely unmonitored final transition.
+
+The escape is causal rather than lucky.
+
+The Mirror survives.
+
+## Decision Override Rule
+
+A new decision may supersede an old decision only when:
+1. the conflict is explicitly identified;
+2. the replacement is documented;
+3. affected specifications are updated;
+4. implementation compatibility is checked.
+
+No silent canon changes.
+
+============================================================
+FILE: ./docs/MASTER_SPEC.md
+============================================================
+# THE OTHER SIDE — MASTER SPECIFICATION
+
+**Status:** Canonical / Design Lock Complete
+**Current Phase:** Implementation Preparation
+**Mapping:** Complete
+**Coordinate Truth:** Frozen
+**Phase 19:** Passed
+**Implementation Gate:** Open
+
+## 1. Identity
+
+**Title:** THE OTHER SIDE
+
+**Genre:** Psychological Horror / Systemic Survival Horror / Investigation
+
+## 2. North Star
+
+> A psychological horror game where the player must understand an intelligence that understands them, then deliberately become something it cannot predict.
+
+## 3. Core Principles
+
+1. The Mirror is intelligent but not omniscient.
+2. The Mirror cannot read thoughts.
+3. The Mirror cannot know unobserved information.
+4. Failed timelines do not leak knowledge across reloads.
+5. The player learns through consequences.
+6. Deception creates both opportunity and information.
+7. No deception is permanent.
+8. Randomness is not the solution.
+9. Final victory is deliberate and causal.
+10. Shamshir does not conventionally fight.
+11. Rosslyn architecture is stable while systems change.
+12. Investigation is player-driven.
+13. Ambiguity concerns the Mirror's nature, not whether the events happened.
+14. Shamshir genuinely escapes.
+15. The Mirror survives.
+16. The final Mirror failure is an overfitting error, not arbitrary stupidity.
+17. The technician vulnerability is a real pre-existing infrastructure discrepancy.
+18. The final escape combines technician knowledge, Mirror understanding, information asymmetry and deliberate pattern violation.
+
+## 4. Production Order
+
+**MAPPING → COORDINATES → DESIGN LOCK → CODING → BLENDER → GODOT**
+
+No implementation phase may silently redefine an earlier phase.
+
+## 5. Rosslyn
+
+Rosslyn is an isolated Pacific Northwest behavioral research facility.
+
+It contains:
+
+- public/admin functions;
+- behavioral research;
+- security/data infrastructure;
+- power/utility infrastructure;
+- legacy pre-digital systems.
+
+## 6. Canonical Spatial Truth
+
+Actual room and portal coordinates are defined exclusively in:
+
+`design/COORDINATE_REGISTRY.md`
+
+The registry is frozen.
+
+## 7. Gameplay Loop
+
+**Explore → Observe → Investigate → Hypothesize → Test → Mirror Adapts → Deceive → Counter-Test → Discover Information Outside Its Model → Exploit → Escape**
+
+## 8. Mirror
+
+The Mirror learns from legitimate observation.
+
+Every major intervention must have a causal basis:
+
+**Observed data → learned pattern → contextual prediction → intervention**
+
+The Mirror can be wrong.
+
+Its late-game failure is overfitting.
+
+The exact algorithm and physical intervention are implementation-level, but their causal basis is locked.
+
+## 9. Technician Vulnerability
+
+The previous technician discovered a physical vulnerability in pre-existing infrastructure.
+
+The vulnerability exists independently of Shamshir.
+
+Its strategic significance is not fully represented within the Mirror's reliable information/control model.
+
+The exact hardware execution remains implementation-level.
+
+## 10. Story
+
+Act I: The Subject.
+
+Act II: The Observer.
+
+Act III: The Overfit.
+
+The final escape uses B-2 legacy infrastructure and genuine information asymmetry.
+
+## 11. Final Escape
+
+Canonical route:
+
+**VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior**
+
+The escape is causal rather than lucky.
+
+The Mirror's incorrect prediction creates a temporary opening.
+
+C-499 is the genuinely unmonitored final transition.
+
+Shamshir genuinely escapes.
+
+The Mirror survives.
+
+## 12. Horror
+
+Psychological, environmental and systemic.
+
+No conventional enemy roster.
+
+No combat-centric gameplay.
+
+No proximity meter.
+
+## 13. Investigation
+
+Evidence is distributed across environment, documents, recordings, architecture and infrastructure.
+
+The notebook is an evidence archive.
+
+## 14. Implementation Gate
+
+Design Lock is complete.
+
+Production may begin.
+
+Implementation must follow the frozen design and may not invent core gameplay rules.
+
+============================================================
+FILE: ./README.md
+============================================================
+# THE OTHER SIDE
+
+Psychological horror / systemic survival horror / investigation.
+
+## North Star
+
+> A psychological horror game where the player must understand an intelligence that understands them, then deliberately become something it cannot predict.
+
+## Current Phase
+
+**Implementation Preparation**
+
+Design Lock is complete. Phase 19 has passed.
+
+Mapping and coordinate truth are complete and frozen.
+
+Production implementation has not started.
+
+## Project Sequence
+
+**MAPPING → COORDINATES → DESIGN LOCK → CODING → BLENDER → GODOT**
+
+## Core Directories
+
+```text
+design/     Canonical game, world and production specifications
+docs/       Master specification, decisions and changelog
+blender/    Environment production
+godot/      Game integration
+tests/      Validation documentation
+tools/      Development and validation tooling
+```
+
+## Authoritative Spatial File
+
+`design/COORDINATE_REGISTRY.md`
+
+Do not invent coordinates from older documents.
+
+## Final Design-Lock Principles
+
+- The Mirror is intelligent but not omniscient.
+- The Mirror cannot read thoughts or player intent.
+- The Mirror cannot use unobserved information.
+- Every meaningful intervention must have a causal chain.
+- The Mirror's final failure is overfitting.
+- The technician discovered a real vulnerability in pre-existing legacy infrastructure.
+- Shamshir exploits that vulnerability using information asymmetry and deliberate pattern violation.
+- The canonical B-2 escape route is frozen.
+- C-499 is the genuinely unmonitored final transition.
+- Shamshir genuinely escapes.
+- The Mirror survives.
+- There is no conventional combat.
+
+## Important Rule
+
+Implementation follows design.
+
+Design does not change merely because implementation is inconvenient.
+
+## Current Implementation Status
+
+Blender: not started.
+
+Godot: not started.
+
+Runtime code: not started.
+
+Detailed modelling: not started.
+
+The implementation gate is open, but production must consume the locked design rather than redefine it.
+
+============================================================
+FILE: ./tests/README.md
+============================================================
+# THE OTHER SIDE — TESTS
+
+Testing begins with implementation and continues through production validation.
+
+## Mandatory Validation Areas
+
+1. Coordinate integrity
+2. Room connectivity
+3. Portal validity
+4. Vertical clearance
+5. Collision/visual agreement
+6. Circuit dependency integrity
+7. Save-terminal accessibility
+8. Act III blind-spot escape continuity
+9. Mirror observation causality
+10. Save/load state restoration
+11. Technician vulnerability causality
+12. Final escape causality
+
+## Coordinate Test
+
+Source coordinates, exported coordinates, imported coordinates and collision coordinates must preserve the same spatial relationships.
+
+## Topology Test
+
+No canonical room may become disconnected.
+
+No portal may connect spaces that do not physically meet.
+
+## Mirror Test
+
+Every significant Mirror intervention must be traceable to:
+
+**Observed data → learned pattern → contextual prediction → intervention**
+
+The Mirror may not use player intent, hidden engine state, unobserved information or failed-timeline memory.
+
+## Technician Test
+
+The implemented legacy vulnerability must remain consistent with the locked design principle:
+
+**pre-existing physical infrastructure + information asymmetry + technician knowledge**
+
+The exact hardware may vary, but the implementation must not turn the vulnerability into a new unrelated puzzle or supernatural mechanic.
+
+## Escape Test
+
+The canonical route must remain:
+
+**VC-01 → R-401 → C-403 → R-402 → R-403 → C-499 → Exterior**
+
+C-499 must provide the intended genuinely unmonitored final transition.
+
+The escape must be caused by the locked combination of technician knowledge, Mirror understanding, information asymmetry and deliberate pattern violation.
+
+## Regression Rule
+
+A later implementation change must not silently alter frozen architectural truth or core gameplay causality.
+
+============================================================
+FILE: ./tools/README.md
+============================================================
+# THE OTHER SIDE — TOOLS
+
+This directory contains development and validation tooling.
+
+## Current Status
+
+Production tooling is not yet authoritative.
+
+The implementation gate is open, but tools remain subordinate to the canonical design.
+
+## Planned Tools
+
+- coordinate registry validation;
+- portal topology validation;
+- architectural consistency checks;
+- system dependency validation;
+- observation-network validation;
+- build/export validation;
+- regression tests;
+- Mirror causality validation;
+- escape-route continuity validation.
+
+## Rule
+
+Tools must validate the design.
+
+They must not silently rewrite canonical design decisions.
+
+The coordinate registry remains the source of truth for actual spatial data.
+
+No tool may invent a room, portal, coordinate, Mirror capability or escape mechanic.
